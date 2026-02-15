@@ -1,0 +1,22 @@
+{
+  "name": "mysql-to-sqlite-migrator",
+  "version": "1.0.0",
+  "description": "Migrate MySQL database to SQLite",
+  "main": "to-sqlite.js",
+  "scripts": {
+    "start": "node to-sqlite.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "mysql2": "^3.14.3",
+    "sqlite3": "^5.1.7"
+  },
+  "keywords": [
+    "mysql",
+    "sqlite",
+    "migration",
+    "database"
+  ],
+  "author": "",
+  "license": "MIT"
+}
